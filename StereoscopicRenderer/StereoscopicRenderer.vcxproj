@@ -40,6 +40,7 @@
     <ClInclude Include="Shader.h" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="brick.png" />
     <Image Include="pop_cat.png" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
