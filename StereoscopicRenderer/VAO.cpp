@@ -10,7 +10,7 @@ GLuint VAO::Id()
     return id;
 }
 
-void VAO::LinkAttrib(VBO vbo, GLuint layout, GLuint numComponents, GLenum type,
+void VAO::LinkAttrib(VBO& vbo, GLuint layout, GLuint numComponents, GLenum type,
     GLsizeiptr stride, void* offset)
 {
     vbo.Bind();

@@ -11,7 +11,7 @@ public:
 
     GLuint Id();
 
-    void LinkAttrib(VBO vbo, GLuint layout, GLuint numComponents, GLenum type,
+    void LinkAttrib(VBO& vbo, GLuint layout, GLuint numComponents, GLenum type,
         GLsizeiptr stride, void* offset);
 
     void Bind();

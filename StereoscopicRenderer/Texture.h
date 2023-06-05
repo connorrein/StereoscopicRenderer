@@ -14,7 +14,7 @@ public:
 
     GLenum Type();
 
-    void TextureUnit(Shader shader, const char* uniform, GLuint unit);
+    void TextureUnit(Shader& shader, const char* uniform, GLuint unit);
 
     void Bind();
 
