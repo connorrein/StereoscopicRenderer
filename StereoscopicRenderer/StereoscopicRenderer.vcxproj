@@ -45,6 +45,10 @@
     <Image Include="brick.png" />
     <Image Include="pop_cat.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="light.frag" />
+    <None Include="light.vert" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
