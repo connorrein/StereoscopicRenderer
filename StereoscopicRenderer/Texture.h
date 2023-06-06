@@ -7,12 +7,8 @@
 class Texture
 {
 public:
-    Texture(const char* imageFileName, GLenum textureType, GLenum slot,
+    Texture(const char* imageFileName, GLenum textureType, GLuint slot,
         GLenum format, GLenum pixelType);
-
-    GLuint Id();
-
-    GLenum Type();
 
     void TextureUnit(Shader& shader, const char* uniform, GLuint unit);
 
@@ -25,4 +21,5 @@ public:
 private:
     GLuint id;
     GLenum type;
+    GLuint unit;
 };
