@@ -12,9 +12,9 @@
 class Camera
 {
 public:
-    Camera(int width, int height, glm::vec3 position);
+    glm::vec3 position;
 
-    glm::vec3 Position();
+    Camera(int width, int height, glm::vec3 position);
 
     void UpdateMatrix(float fovDeg, float nearPlane, float farPlane);
 
@@ -25,7 +25,6 @@ public:
 private:
     int width;
     int height;
-    glm::vec3 position;
     glm::vec3 forward = glm::vec3(0.0f, 0.0f, -1.0f);
     glm::vec3 up = glm::vec3(0.0f, 1.0f, 0.0f);
     glm::mat4 cameraMatrix = glm::mat4(1.0f);

@@ -1,12 +1,13 @@
 #pragma once
 
+#include <vector>
 #include <glad/glad.h>
 
 // Element Buffer Object
 class EBO
 {
 public:
-    EBO(GLuint* vertices, GLsizeiptr size);
+    EBO(std::vector<GLuint>& indices);
 
     GLuint Id();
 

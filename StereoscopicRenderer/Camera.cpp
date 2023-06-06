@@ -7,11 +7,6 @@ Camera::Camera(int width, int height, glm::vec3 position)
     Camera::position = position;
 }
 
-glm::vec3 Camera::Position()
-{
-    return position;
-}
-
 void Camera::UpdateMatrix(float fovDeg, float nearPlane, float farPlane)
 {
     glm::mat4 view = glm::mat4(1.0f);
