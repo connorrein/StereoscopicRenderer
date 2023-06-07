@@ -48,12 +48,6 @@
     <ClInclude Include="Shader.h" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="brick.png" />
-    <Image Include="planks.png" />
-    <Image Include="planksSpec.png" />
-    <Image Include="pop_cat.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="light.frag" />
     <None Include="light.vert" />
   </ItemGroup>
