@@ -54,7 +54,7 @@ void Mesh::Draw(
 
     glUniform3f(glGetUniformLocation(shader.Id(), "camPos"), camera.position.x,
         camera.position.y, camera.position.z);
-    camera.Matrix(shader, "camMatrix");
+    camera.ApplyMatrix(shader, "camMatrix");
 
     glm::mat4 trans = glm::mat4(1.0f);
     glm::mat4 rot = glm::mat4(1.0f);
