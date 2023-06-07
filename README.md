@@ -6,7 +6,7 @@ A simple 3D stereoscopic renderer made with OpenGL for UW CSE 455 to explore hum
 
 ## Presentation
 
-TODO
+https://github.com/connorrein/StereoscopicRenderer/assets/43483846/4f128d73-617f-4077-a857-0b697d43fdd6
 
 ## Problem Description
 
