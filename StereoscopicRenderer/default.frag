@@ -15,7 +15,7 @@ uniform vec3 camPos;
 
 void main()
 {
-	float ambient = 0.20f;
+	float ambient = 0.50f;
 
 	vec3 normal = normalize(Normal);
 	vec3 lightDirection = normalize(lightPos - crntPos);

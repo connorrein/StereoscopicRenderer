@@ -24,8 +24,8 @@ void StereoCamera::UpdateCameras()
     leftCamera.position = position - (ipd / 2.0f) * right;
     rightCamera.position = position + (ipd / 2.0f) * right;
 
-    leftCamera.UpdateMatrix(45.0f, 0.1f, 100.0f);
-    rightCamera.UpdateMatrix(45.0f, 0.1f, 100.0f);
+    leftCamera.UpdateMatrix(45.0f, 0.1f, 500.0f);
+    rightCamera.UpdateMatrix(45.0f, 0.1f, 500.0f);
 }
 
 void StereoCamera::HandleInput(GLFWwindow* window)
