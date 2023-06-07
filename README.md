@@ -52,9 +52,11 @@ the window.
 
 To render a model in our scene, we multiplied each vertex position $\mathbf{v}$
 by a series of $4 \times 4$ matrices as follows:
+
 $$
 A_\text{projection} \cdot A_\text{view} \cdot A_\text{model} \cdot \mathbf{v},
 $$
+
 where
 - $A_\text{projection}$ is the camera’s projection matrix, which projects 3D
   points to screen coordinates. It takes into account the field of view, the
@@ -79,9 +81,11 @@ specular component simulates the highlight or glossy reflection on the surface.
 By combining these components, we are able to create more visually believable
 shading effects, adding depth and realism to rendered objects. The formula we
 used is:
+
 $$
 I = I_a + (I_d * K_d * max(N · L, 0)) + (I_s  * max(N · H, 0)^n)
 $$
+
 Where
 - $I$ represents the total reflected light intensity at the point.
 - $I_a$ is the ambient light intensity.
